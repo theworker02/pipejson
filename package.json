@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pipejson",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pipe identifiers and json tokens for idempotent workflows.",
+  "bin": {
+    "pipejson": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pipejson.git"
+  },
+  "homepage": "https://theworker02.github.io/pipejson/",
+  "keywords": [
+    "pipe",
+    "json",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
